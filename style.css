@@ -1,0 +1,45 @@
+*{
+font-family:'poppins', sans-serif;
+}
+body{
+    background-image: url("Back.jpg");
+    color: #ffffff;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+p{
+    font-size:40px;
+    text-transform:uppercase;
+    color:#ffffff;
+    text-align: center;
+    margin: 20px;
+}
+
+
+img{
+    border:solid 5px #ffffff;
+    border-radius:10%;
+    height:350px;
+    width:300px;
+}
+#track{
+    font-size: 40px;
+}
+#git{
+    font-size:20px;
+    text-transform:lowercase;
+    color:#ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.github:hover{
+    color:#808080;
+    text-shadow: 2px 2px 2px red;
+}
